@@ -5,10 +5,10 @@ set :application, 'python-db-schema'
 set :repo_url, 'https://github.com/flying-bird/python-db-schema'
 
 set :branch, "master"
-set :user, "eng"
+set :user, "your_account"
 set :deploy_via, :copy
 set :linked_dirs, %w{log}
-set :deploy_to, '/tmp/python-db-schema'
+set :deploy_to, '/tmp/your_deploy_path'
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
